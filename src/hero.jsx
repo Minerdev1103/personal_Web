@@ -446,13 +446,15 @@ const Portfolio = () => {
               </div>
             </div>
 
-            <div className="contact-form">
+            <div className="contact-form" name="get-in-touch" netlify>
               <div className="form">
                 <div className="form-group">
                   <input
                     type="text"
                     placeholder="Your Name"
                     className="form-input"
+                    for="your-name"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -460,6 +462,8 @@ const Portfolio = () => {
                     type="email"
                     placeholder="Your Email"
                     className="form-input"
+                    for="your-email"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -467,9 +471,12 @@ const Portfolio = () => {
                     placeholder="Your Message"
                     className="form-textarea"
                     rows="5"
+                    for="your-message"
+                    required
                   ></textarea>
                 </div>
                 <button
+                  type="submit"
                   className="btn-primary full-width"
                   onClick={() => alert("Message sent! (This is a demo)")}
                 >
