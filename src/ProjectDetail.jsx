@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "Pi Securities Public Company Limited",
     description: "Design and Develop Websites",
-    logo: "./photo/pi.png",
+    logo: "/photo/pi.png",
     category: "FinTech",
     images: [
       "/photo/pi/1.png",
@@ -33,7 +33,7 @@ const projects = [
     id: 2,
     title: "Klang Hospital",
     description: "Design and Develop Websites",
-    logo: "./photo/klang.png",
+    logo: "/photo/klang.png",
     category: "Healthcare",
     images: [
       "/photo/klang/1.png",
@@ -52,7 +52,7 @@ const projects = [
     id: 3,
     title: "OmniFood",
     description: "Design and Develop Websites",
-    logo: "./photo/omnifood.png",
+    logo: "/photo/omnifood.png",
     category: "Academic",
     images: [
       "/photo/omnifood/11.png",
@@ -70,7 +70,7 @@ const projects = [
     id: 4,
     title: "Deli Delivery Food",
     description: "Design Websites",
-    logo: "./photo/deli.png",
+    logo: "/photo/deli.png",
     category: "Academic",
     images: [
       "/photo/delivery/01.jpg",
@@ -102,7 +102,7 @@ const projects = [
     id: 5,
     title: "Health and Fitness",
     description: "Design Websites",
-    logo: "./photo/health.png",
+    logo: "/photo/health.png",
     category: "Academic",
     images: [
       "/photo/health/1.png",
