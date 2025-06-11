@@ -453,7 +453,7 @@ const Portfolio = () => {
                     type="text"
                     placeholder="Your Name"
                     className="form-input"
-                    for="your-name"
+                    name="your-name"
                     required
                   />
                 </div>
@@ -462,7 +462,7 @@ const Portfolio = () => {
                     type="email"
                     placeholder="Your Email"
                     className="form-input"
-                    for="your-email"
+                    name="your-email"
                     required
                   />
                 </div>
@@ -471,7 +471,7 @@ const Portfolio = () => {
                     placeholder="Your Message"
                     className="form-textarea"
                     rows="5"
-                    for="your-message"
+                    name="your-message"
                     required
                   ></textarea>
                 </div>
