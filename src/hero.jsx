@@ -177,6 +177,14 @@ const Portfolio = () => {
         "/photo/health/16.png",
       ],
     },
+    {
+      id: 6,
+      title: "A Star Technology Company",
+      description: "Design Websites",
+      logo: "/photo/a-star.png",
+      category: "websites company",
+      images: ["/photo/a-star/astar.png"],
+    },
   ];
 
   return (
@@ -263,7 +271,7 @@ const Portfolio = () => {
                 </div>
                 <div className="code-line code-indent">
                   <span className="code-property">skills:</span>
-                  <span className="code-array">['React', 'Node.js']</span>,
+                  <span className="code-array">['React', 'Figma']</span>,
                 </div>
                 <div className="code-line code-indent">
                   <span className="code-property">passion:</span>

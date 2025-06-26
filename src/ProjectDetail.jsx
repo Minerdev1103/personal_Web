@@ -122,6 +122,22 @@ const projects = [
       "/photo/health/16.png",
     ],
   },
+  {
+    id: 6,
+    title: "A Star Technology Company",
+    description: "Design Websites",
+    logo: "/photo/a-star.png",
+    category: "websites company",
+    images: [
+      "/photo/a-star/a1.png",
+      "/photo/a-star/a2.png",
+      "/photo/a-star/a3.png",
+      "/photo/a-star/a4.png",
+      "/photo/a-star/a5.png",
+      "/photo/a-star/a6.png",
+      "/photo/a-star/a7.png",
+    ],
+  },
 ];
 
 export default function ProjectDetail() {
