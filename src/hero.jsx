@@ -222,7 +222,7 @@ const Portfolio = () => {
               Hello, I'm <span className="highlight">Sorayut Thamsanong</span>
             </h1>
             <p className="hero-subtitle">
-              Front-end Developer & UX-UI Designer
+              UX-UI Designer & Front-end Developer
             </p>
             <p className="hero-description">
               I am someone who loves and is passionate about coding. I enjoy
