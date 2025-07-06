@@ -470,6 +470,15 @@ body {
   transform: scale(1.05);
 }
 
+.section-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
 .card-content {
   padding: 1.5rem;
 }

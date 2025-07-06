@@ -138,6 +138,19 @@ const projects = [
       "/photo/a-star/a7.png",
     ],
   },
+  {
+    id: 7,
+    title: "BeTask Consulting Company",
+    description: "Design Websites and Application",
+    logo: "/photo/betask.png",
+    category: "User Form Service",
+    images: [
+      "/photo/betask/Desktop.jpg",
+      "/photo/betask/Mobile1.jpg",
+      "/photo/betask/Mobile2.jpg",
+      "/photo/betask/Mobile3.jpg",
+    ],
+  },
 ];
 
 export default function ProjectDetail() {

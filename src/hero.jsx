@@ -124,7 +124,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: "Deli Delivery Food",
-      description: "Design Websites",
+      description: "Design Application",
       logo: "/photo/deli.png",
       category: "Academic",
       images: [
@@ -156,7 +156,7 @@ const Portfolio = () => {
     {
       id: 5,
       title: "Health and Fitness",
-      description: "Design Websites",
+      description: "Design Application",
       logo: "/photo/health.png",
       category: "Academic",
       images: [
@@ -182,8 +182,21 @@ const Portfolio = () => {
       title: "A Star Technology Company",
       description: "Design Websites",
       logo: "/photo/a-star.png",
-      category: "websites company",
+      category: "Websites company",
       images: ["/photo/a-star/astar.png"],
+    },
+    {
+      id: 7,
+      title: "BeTask Consulting Company",
+      description: "Design Websites and Application",
+      logo: "/photo/betask.png",
+      category: "User Form Service",
+      images: [
+        "/photo/betask/Desktop.jpg",
+        "/photo/betask/Mobile1.jpg",
+        "/photo/betask/Mobile2.jpg",
+        "/photo/betask/Mobile3.jpg",
+      ],
     },
   ];
 
@@ -372,6 +385,13 @@ const Portfolio = () => {
             <p className="section-subtitle">
               Explore my professional work and academic projects
             </p>
+            <a
+              className="section-link"
+              href="https://portfolio-sorayut.my.canva.site/"
+              target="_blank"
+            >
+              View Full Portfolio
+            </a>
           </div>
 
           <div className="portfolio-grid">
