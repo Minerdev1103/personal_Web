@@ -198,6 +198,14 @@ const Portfolio = () => {
         "/photo/betask/Mobile3.jpg",
       ],
     },
+    {
+      id: 8,
+      title: "SparkJoy Company",
+      description: "Design Websites and Application",
+      logo: "/photo/sparkjoy.png",
+      category: "Novel Application",
+      images: ["/photo/sparkjoy/Desktop.png", "/photo/sparkjoy/Home.png"],
+    },
   ];
 
   return (
